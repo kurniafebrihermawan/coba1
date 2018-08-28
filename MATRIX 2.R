@@ -1,0 +1,6 @@
+x1=c(2,5)
+x2=c(4,7)
+x=cbind(x1,x2)
+t(x)
+write.table(iris,"D:/iris.txt")
+write.csv(iris,"D:/iris.csv")
